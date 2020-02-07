@@ -1,0 +1,152 @@
+body{
+    font-family: 'open sans';
+    margin: 0px;
+}
+
+.menu-container{
+    display: flex;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    height: 50px;
+    padding: 20px 20px;
+    background-color: #98989880;
+    position: fixed;
+    width: 100%;
+}
+
+.logo{
+    flex: 1 1 300px;
+}
+
+.logo>img{
+    max-height: 100%;
+}
+
+.menu{
+    flex: 1 1 300px;
+}
+
+.menu ul{
+    display: flex;
+    display: -webkit-flex;
+    display: -ms-flexbox;    
+    list-style: none;
+    padding-left: 0px;
+}
+.menu ul>li{
+    flex-grow: .5;
+}
+.menu a{
+    color: #FFF;
+    text-decoration: none;
+}
+
+.menu a:hover{
+    color: #000;
+}
+
+.inicio{
+    display: flex;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    background-image: url(coding.jpg);
+    height: 700px;
+    align-items: center;
+    color: #FFF;
+    justify-content: space-around;
+}
+
+.inicio>.caption{
+    flex: 0 1 40%;
+    background-color: #00000085;
+    padding: 30px;
+    border-radius: 4px;
+}
+
+.inicio h1{
+    font-size: 42px;
+    margin-top: 0px;
+}
+
+.redes-sociales i{
+    padding: 20px;
+    border-radius: 50%;
+    border: solid 1px #FFF;
+    font-size: 21px;
+    color: #FFF;
+    margin: 0px 10px;
+}
+
+.redes-sociales .fa-facebook-f{
+    padding-left: 23px;
+    padding-right: 23px;
+}
+
+.About-me{
+    display: flex;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    background-color:black;
+    height: 600px;
+    align-items:center;
+    justify-content:space-around;
+    color:white;
+}
+
+.campos .items{
+    list-style: none;
+    padding: 0px;
+}
+.personales .items{
+    list-style: none;
+}
+
+.image-profile img{
+    border:8px solid rgb(214, 166, 9);
+}
+
+.image-profile{
+    flex: 0 1 25%;
+    padding: 130px;
+}
+.Descripcion{
+    flex: 0 1 40%;
+    margin:0;
+}
+.Descripcion p{
+    color:gray;
+}
+.personales .items>li{
+    color:gray;
+}
+.image-profile>img{
+    max-width: 100%; 
+    height: auto;
+}
+.data{
+    display:flex;
+    display: -webkit-flex; 
+    display: -ms-flexbox;  
+}
+.cv{
+    background:rgb(214, 166, 9);
+    border-radius:40px; 
+    display: inline-block;
+    /*Arriba/Abajo Izquierda/Derecha*/ 
+    padding: 18px 35px;
+    color:#FFF;
+    text-decoration: none;
+  
+}
+
+.cv:hover{
+    background:rgb(145, 113, 9);
+}
+.cv:active{
+    background-color:rgb(151, 145, 145);
+}
+.personales>ul{
+    text-decoration: none;
+}
+
+
